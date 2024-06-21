@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+}
+section#forms{
+    padding: 20px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 290px;
+}
+form input{
+    margin: 10px;
+    padding: 10px;
+}
+form button{
+    padding: 8px 12px;
+}
